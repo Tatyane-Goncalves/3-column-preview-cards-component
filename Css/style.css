@@ -1,0 +1,77 @@
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: auto;
+}
+.cards{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    text-align: left;
+    justify-content: center;
+}
+.item{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.btn{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 35px;
+    width: 120px;
+    height: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/*sedan*/
+.card-sedan{
+    background-color: hsl(31, 77%, 52%);
+    height: 410px;
+    width: 300px;
+    border-top-left-radius: 9px;
+    border-end-start-radius: 9px;
+}
+.card-sedan .item img{
+    margin-top: 15px;
+}
+.card-sedan .item .btn a{
+    color: hsl(31, 77%, 52%);
+    font-weight: 400;
+}
+/*suv*/
+.card-suv{
+    background-color: hsl(184, 100%, 22%);
+    height: 410px;
+    width: 300px;
+}
+.card-suv .item img{
+    margin-top: 15px;
+}
+.card-suv .item .btn a{
+    color: hsl(184, 100%, 22%);
+    font-weight: 400;
+}
+/*luxury*/
+.card-luxury{
+    background-color: hsl(179, 100%, 13%);
+    height: 410px;
+    width: 300px;
+    border-top-right-radius: 9px;
+    border-end-end-radius: 9px;
+}
+.card-luxury .item img{
+    margin-top: 15px;
+}
+.card-luxury .item .btn a{
+    color: hsl(179, 100%, 13%);
+}
